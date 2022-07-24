@@ -73,22 +73,29 @@
 
 <!-- Section 2 -->
 <section class="container-fluid bg-secondary">
-    <div class="row p-5">
-        <div class="col-12 text-center">
+    <div class="row">
+        <div class="col-12 p-5 text-center">
             <h1 class="text-warning"><u>Javascript Skills:</u></h1>
         </div>    
     </div>
     <div class="row text-center">
-        <div class="col-lg-6">
-            <h2>Simple function:</h2>
+        <div class="col-lg-6 p-5 bg-warning text-dark border border-dark border-5 border-opacity-50">
+            <h2>Simple function #1</h2>
             <h3 id="h-one">Machine: OFF</h3>
             <button id="btn-one" class="btn btn-primary m-1">Start machine</button>
             <p id="txt-one">machine is stopped</p>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-6">
-
+        <div class="col-lg-6 p-5 bg-dark text-light border border-light border-5 border-opacity-50">
+            <h2>Simple Function #2</h2>
+            <select name="artists" id="favorite-artists">
+                <option value="">-- Chose Artist --</option>
+                <option value="freddie">Freddie Mercury</option>
+                <option value="kendrick">Kendrick Lamar</option>
+                <option value="elton">Elton John</option>
+                <option value="elvis">Elvis Presley</option>
+                <option value="frank">Frank Ocean</option>
+            </select>
+            <p id="artist-text" class="text-warning"></p>
         </div>
     </div>
 </section>    
