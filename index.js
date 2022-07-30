@@ -27,7 +27,7 @@ function updateArtist() {
 
     switch (choice) {
         case 'freddie':
-            artistText.textContent = 'Freddie Mercury is a favorite of Jeannie and mine. We had a phase during our marriage where all we would listen to was Freddie Mercury. We even named our first dog "Freddie" after him.'
+            artistText.textContent = 'Freddie Mercury is a favorite of Jeannie and mine. We had a phase in the beginning our marriage where all we would listen to was Freddie Mercury. We even named our first dog "Freddie" after him.'
             break;
         case 'kendrick':
             artistText.textContent = 'Kendrick Lamar is one of my all time favorites. To Pimp A Butterfly is truly a masterpiece. His other albums are also good, he rarely misses.'
