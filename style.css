@@ -1,8 +1,9 @@
 /* 
-blueberry #687A8F
-apricot #F7882F
-citrus #F7C331
-apple core #DCC7AA
+#05386b
+#379683
+#5cdb95
+#8ee4af
+#edf5e1
 */
 
 * {
@@ -10,24 +11,39 @@ apple core #DCC7AA
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: #edf5e1; 
 }
 
 #header {
-    background-color: #687A8F;
+    background-color: #379683;
+}
+
+.card-title {
+    color: #05386b;
 }
 
 #section-one {
-    background-image: linear-gradient(#F7882F,#F7C331)
+    background-image: linear-gradient(#379683,#5cdb95)
 }
 
 #javascript-skills {
-    background-color: #687A8F; 
+    background-color: #5cdb95; 
 }
 
+#js-one {
+    color: #05386b;
+}
 
+option {
+    color: #05386b;
+}
+
+#artist-text {
+    color: #05386b;
+}
 
 #footer {
     font-size: 1rem;
     font-weight: 500;
-    background-color: #DCC7AA;
+    background-color: #edf5e1;
 }
